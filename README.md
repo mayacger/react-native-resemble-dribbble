@@ -25,5 +25,8 @@ react-native-icons 原为：React native vector icons 两者使用方式有不�
         />
 ```
 react-native-parallax-view<br/>
+    //这是一个拖拽时图片放大的效果插件,原js中有bug，Dimensions模块react 已经内置，不需要require. 我改动了原文件，注入Dimensions。
+    
+    
 react-native-htmlview
 

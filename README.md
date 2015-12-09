@@ -5,6 +5,10 @@
   在学习的过程中遇到了一些异常，其中有些是因为react-native-dribbble-app中使用的一些组件的方法过时（fb更新快且文档跟不上）。
   有几个问题解决了，还有几个没有解决。
 
+
+<img src="https://github.com/mayacger/react-native-resemble-dribbble/blob/master/app/img/1.jpg?raw=true" alt="参考图" />
+<img src="https://github.com/mayacger/react-native-resemble-dribbble/blob/master/app/img/2.jpg?raw=true" alt="参考图" />
+
 ## install
 
 

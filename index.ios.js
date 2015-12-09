@@ -24,7 +24,7 @@ var TabBarItemIOS = TabBarIOS.Item;
 var ListContent = require('./app/page/ruter');
 
 
-var dzlProject = React.createClass({
+var resembleDribbble = React.createClass({
 
   getInitialState: function () {
     return {
@@ -122,84 +122,6 @@ var dzlProject = React.createClass({
   }
 });
 
-// var dzlProject = React.createClass({
-
-//     getDefaultProps: function() {
-//       return {
-//         fadeAnim: new Animated.Value(0),
-//       };
-//     },
-
-//    componentDidMount: function() {
-//      Animated.timing(          // Uses easing functions
-//        this.state.fadeAnim,    // The value to drive
-//        {toValue: 1},           // Configuration
-//      ).start();                // Don't forget start!
-//    },
-//   render: function() {
-//     return (
-//       <View style={styles.container}>
-//         <Text style={styles.welcome}>
-//           Welcome to React Native!
-//         </Text>
-//         <Animated.Image
-//           style={{opacity: this.state.fadeAnim}}
-//           source={require('./app/img/icon-60.png')} />
-
-//         <Text style={styles.instructions}>
-//           To get started, edit index.ios.js
-//         </Text>
-//         <Text style={styles.instructions}>
-//           Press Cmd+R to reload,{'\n'}
-//           Cmd+D or shake for dev menu
-//         </Text>
-//       </View>
-//     );
-//   }
-// });
-//
-// var WEBVIEW_REF = 'webview';
-
-// class dzlProject extends React.Component {
-//    constructor(props) {
-//      super(props);
-//      this.state = {
-//        fadeAnim: new Animated.Value(0), // init opacity 0
-//        url: 'http://www.dazhili.com/question/lists',
-//      };
-//    }
-//    componentDidMount() {
-//      Animated.timing(          // Uses easing functions
-//        this.state.fadeAnim,    // The value to drive
-//        {toValue: 1},           // Configuration
-//      ).start();                // Don't forget start!
-//    }
-//    render() {
-//      return (
-//       <View style={styles.container}>
-//        <Animated.Image
-//           style={[{opacity: this.state.fadeAnim},styles.imgRadius]}
-//          source={require('./app/img/icon-60.png')} />
-//          <WebView
-//           ref={WEBVIEW_REF}
-//           automaticallyAdjustContentInsets={true}
-//           style={styles.webView}
-//           startInLoadingState={true}
-//           url={this.state.url} />
-//       </View>
-//       // <WebView
-//       //     // ref={WEBVIEW_REF}
-//       //     // automaticallyAdjustContentInsets={false}
-//       //     style={styles.webView}
-//       //     url={this.state.url} />
-//           // javaScriptEnabledAndroid={true}
-//           // onNavigationStateChange={this.onNavigationStateChange}
-//           // onShouldStartLoadWithRequest={this.onShouldStartLoadWithRequest}
-//           // startInLoadingState={true}
-//           // scalesPageToFit={this.state.scalesPageToFit} />
-//      );
-//    }
-//  };
 
 var styles = StyleSheet.create({
   tabContent: {
@@ -216,4 +138,4 @@ var styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('dzlProject', () => dzlProject);
+AppRegistry.registerComponent('resembleDribbble', () => resembleDribbble);

@@ -24,7 +24,7 @@
 
 react-native-icons 原为：React native vector icons 两者使用方式有不同
 
-  如果遇到'Warning: Native component for "FAKIconImage" does not exist' 说明react-native-icons 没有安装，请按react-native-icons的说明把字体导入xcode
+  如果遇到'Warning: Native component for "FAKIconImage" does not exist' 说明react-native-icons 没有安装，请按react-native-icons的说明把字体导入xcode https://github.com/corymsmith/react-native-icons
     
 ```javascript
     {Icon, } = require('react-native-icons')

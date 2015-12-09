@@ -6,6 +6,17 @@
   有几个问题解决了，还有几个没有解决。
 ## IOS
 
+## install
+    npm install
+    
+    进入react-native-dribbble-app/ios 目录打开 resembleDribbble.xcodeproj
+    
+    command + r
+    
+    如果遇到Command /bin/sh failed with exit code 127 错误
+    
+    Go into XCode and go to the Build Phases tab. Remove the last item on the list (the one that runs the script)，进入Build Phases，删除 最后一个列表
+
 ## Android 
   无
   

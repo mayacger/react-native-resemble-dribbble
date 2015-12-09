@@ -24,6 +24,6 @@ react-native-icons 原为：React native vector icons 两者使用方式有不�
           style={styles.icon} //需要一个样式设置width height
         />
 ```
-    react-native-parallax-view
-    react-native-htmlview
+react-native-parallax-view<br/>
+react-native-htmlview
 

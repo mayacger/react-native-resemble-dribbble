@@ -4,9 +4,10 @@
 
   在学习的过程中遇到了一些异常，其中有些是因为react-native-dribbble-app中使用的一些组件的方法过时（fb更新快且文档跟不上）。
   有几个问题解决了，还有几个没有解决。
-## IOS
 
 ## install
+
+
     npm install
     
     进入react-native-dribbble-app/ios 目录打开 resembleDribbble.xcodeproj

@@ -11,13 +11,17 @@
   
 ## Plugins used:
   react-native-icons 原为：React native vector icons 两者使用方式有不同
-      * ···{Icon, } = require('react-native-icons')···
-      * ···<Icon
+      ···javascript
+        {Icon, } = require('react-native-icons')
+        ···
+      ···javascript
+          <Icon
                 name='fontawesome|heart'
                 size={24}
                 color='#333'
                 style={styles.icon} //需要一个样式设置width height
-              />····
+              />
+        ····
   react-native-parallax-view
   react-native-htmlview
 

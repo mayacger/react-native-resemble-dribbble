@@ -25,6 +25,6 @@ react-native-icons 原为：React native vector icons 两者使用方式有不�
         />
 ```
 
-react-native-parallax-view
-react-native-htmlview
+    react-native-parallax-view
+    react-native-htmlview
 

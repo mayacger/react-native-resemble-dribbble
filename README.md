@@ -26,6 +26,7 @@ Go into XCode and go to the Build Phases tab. Remove the last item on the list (
 ## Android
 
   安卓我还在摸索，没有参考，学习有点困难。
+  
   安卓中我使用了react-native-tabbar，不太理想。
 
 ## Plugins used:

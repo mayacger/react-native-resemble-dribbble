@@ -9,6 +9,7 @@
     "react-native": "^0.15.0",
     "react-native-htmlview": "^0.2.0",
     "react-native-icons": "^0.6.3",
-    "react-native-parallax-view": "^2.0.2"
+    "react-native-parallax-view": "^2.0.2",
+    "react-native-tabbar": "^0.1.1"
   }
 }

@@ -51,6 +51,7 @@ var resembleDribbble = React.createClass({
       <Tabbar style={styles.container} selected={state.selected} onTabItemPress={this.onTabItemPress}>
         <Item name="default">
           <Item.Content>
+            <View></View>
             {this._renderContent("default", "default")}
           </Item.Content>
           <Item.Icon >

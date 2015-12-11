@@ -218,7 +218,7 @@ var styles = StyleSheet.create({
     backgroundColor: "white",
     flexDirection: "column",
     justifyContent: "center",
-    paddingTop: 64,
+    // paddingTop: 64,
   },
   separator: {
     height: 1,
